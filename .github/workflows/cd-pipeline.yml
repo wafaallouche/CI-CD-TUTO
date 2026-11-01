@@ -4,7 +4,7 @@ name: CD Pipeline to Render
 on:
   push:
     branches:
-      - staging
+      - main
   workflow_dispatch: {}
   release:
     types: [published]
